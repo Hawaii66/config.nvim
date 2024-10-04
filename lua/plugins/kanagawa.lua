@@ -1,6 +1,6 @@
 return {
 	"rebelot/kanagawa.nvim",
-	configure = function()
-		vim.cmd.colorscheme = "kanagawa-lotus"
-	end
+	config = function()
+	    vim.cmd("colorscheme kanagawa-dragon")
+    end
 }
